@@ -3,11 +3,11 @@ def tinh_tien_nuoc (so_nuoc):
     if so_nuoc <= 10:
         tien_nuoc_thang = so_nuoc * gia_ban_nuoc[0]
     elif so_nuoc <= 20:
-        tien_nuoc_thang = 10 * gia_ban_nuoc[0] * (so_nuoc - 10) * gia_ban_nuoc[1]
+        tien_nuoc_thang = 10 * gia_ban_nuoc[0] + (so_nuoc - 10) * gia_ban_nuoc[1]
     elif so_nuoc <= 30:
-        tien_nuoc_thang = 10 * gia_ban_nuoc[0] * 10 * gia_ban_nuoc[1] + (so_nuoc - 20) * gia_ban_nuoc[2]
+        tien_nuoc_thang = 10 * gia_ban_nuoc[0] + 10 * gia_ban_nuoc[1] + (so_nuoc - 20) * gia_ban_nuoc[2]
     else:
-        tien_nuoc_thang = 10 * gia_ban_nuoc[0] * 10 * gia_ban_nuoc[1] + 10 * gia_ban_nuoc[2] + (so_nuoc - 30) * gia_ban_nuoc[3]
+        tien_nuoc_thang = 10 * gia_ban_nuoc[0] + 10 * gia_ban_nuoc[1] + 10 * gia_ban_nuoc[2] + (so_nuoc - 30) * gia_ban_nuoc[3]
     return tien_nuoc_thang
 
 
