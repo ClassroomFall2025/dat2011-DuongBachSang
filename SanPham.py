@@ -57,15 +57,12 @@ class SanPham:
 # print(sp)
 
 
-
-
-
  # code bài 2
     # def nhap_thong_tin_sp(self):
     #     self.ten_sp = input("nhập tên sản phẩm: ")
     #     self.gia_sp = float(input("nhập giá sản phẩm: "))
     #     self.__giam_gia_sp = float(input("nhập giảm giá sản phẩm: "))
-
+# code bài 4
     # print("----nhập sản phẩm 1--- ")
     # ten1 = input("nhập tên sản phẩm 1: ")
     # gia1 = float(input("nhập giá sản phẩm 1: "))
